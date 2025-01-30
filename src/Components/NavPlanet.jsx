@@ -27,7 +27,7 @@ const NavPlanet = ({ toggleContact, isContactOpen }) => {
               <Link href="#" onClick={toggleContact}>
                 <div className="nav-planet__contact">Contact</div>
               </Link>
-              <Link to="/about">
+              <Link to="#" className="not-done">
                 <div className="nav-planet__about">About</div>
               </Link>
             </div>

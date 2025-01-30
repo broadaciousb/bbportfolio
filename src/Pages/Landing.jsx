@@ -22,7 +22,7 @@ const Landing = ({ toggleContact, isContactOpen }) => {
                 </p>
                 <div className="landing__links">
                   <div className="landing__link">
-                    <Link>
+                    <Link to="https://github.com/broadaciousb">
                       <FontAwesomeIcon
                         className="landing__link--icon"
                         icon="fa-brands fa-github"
@@ -31,7 +31,7 @@ const Landing = ({ toggleContact, isContactOpen }) => {
                     <div className="landing__link--label">Github</div>
                   </div>
                   <div className="landing__link">
-                    <Link>
+                    <Link to="https://www.linkedin.com/in/broady-butler-ei-8069aa173/">
                       <FontAwesomeIcon
                         className="landing__link--icon"
                         icon="fa-brands fa-linkedin"
@@ -40,7 +40,7 @@ const Landing = ({ toggleContact, isContactOpen }) => {
                     <div className="landing__link--label">LinkedIn</div>
                   </div>
                   <div className="landing__link">
-                    <Link className="landing__link">
+                    <Link className="landing__link not-done">
                       <FontAwesomeIcon
                         className="landing__link--icon"
                         icon="fa-solid fa-envelope"
@@ -49,7 +49,7 @@ const Landing = ({ toggleContact, isContactOpen }) => {
                     <div className="landing__link--label">Email</div>
                   </div>
                   <div className="landing__link">
-                    <Link className="landing__link">
+                    <Link className="landing__link not-done"  download="src/assets/Broady Butler Resume 3.pdf">
                       <FontAwesomeIcon
                         className="landing__link--icon"
                         icon="fa-solid fa-file-pdf"

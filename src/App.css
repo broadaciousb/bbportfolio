@@ -49,6 +49,10 @@ a {
   margin: 0 20px;
 }
 
+.not-done {
+  cursor: not-allowed;
+}
+
 /* NAV */
 
 .nav__bar {
@@ -594,6 +598,7 @@ a {
   color: #375e97;
   background-color: white;
   border: 2px solid #6389c2;
+  cursor: not-allowed;
 }
 
 .form__submit:hover {
@@ -742,7 +747,7 @@ a {
 
 /* SMALL PHONES */
 
-@media (max-width: 400px) {
+@media (max-width: 560px) {
 
   .nav-planet__projects,
   .nav-planet__contact,
@@ -759,5 +764,9 @@ a {
   .nav-wheel:hover .nav-planet__contact,
   .nav-wheel:hover .nav-planet__about {
     margin-right: 70vw;
+  }
+
+  .project__description {
+    display: none;
   }
 }
